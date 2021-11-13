@@ -83,12 +83,6 @@
     <Compile Include="Vistas\TicketsForm.Designer.cs">
       <DependentUpon>TicketsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\UsuarioForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vistas\UsuarioForm.Designer.cs">
-      <DependentUpon>UsuarioForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Vistas\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,9 +113,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\TicketsForm.resx">
       <DependentUpon>TicketsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vistas\UsuarioForm.resx">
-      <DependentUpon>UsuarioForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

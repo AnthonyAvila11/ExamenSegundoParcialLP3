@@ -32,7 +32,6 @@ namespace Ejercicio3_AnthonyAvila.Vistas
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuView));
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
-            this.UsuarioToolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.ServicioToolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.TicketsToolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.DetallesToolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
@@ -46,7 +45,6 @@ namespace Ejercicio3_AnthonyAvila.Vistas
             this.ribbonControlAdv1.CaptionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ribbonControlAdv1.Dock = Syncfusion.Windows.Forms.Tools.DockStyleEx.Top;
             this.ribbonControlAdv1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ribbonControlAdv1.Header.AddMainItem(UsuarioToolStripTabItem1);
             this.ribbonControlAdv1.Header.AddMainItem(ServicioToolStripTabItem2);
             this.ribbonControlAdv1.Header.AddMainItem(TicketsToolStripTabItem3);
             this.ribbonControlAdv1.Header.AddMainItem(DetallesToolStripTabItem5);
@@ -69,7 +67,7 @@ namespace Ejercicio3_AnthonyAvila.Vistas
             this.ribbonControlAdv1.QuickPanelVisible = false;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.TouchStyle;
-            this.ribbonControlAdv1.SelectedTab = this.UsuarioToolStripTabItem1;
+            this.ribbonControlAdv1.SelectedTab = this.ServicioToolStripTabItem2;
             this.ribbonControlAdv1.ShowQuickItemsDropDownButton = false;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(1112, 61);
@@ -79,23 +77,6 @@ namespace Ejercicio3_AnthonyAvila.Vistas
             this.ribbonControlAdv1.Text = "ribbonControlAdv1";
             this.ribbonControlAdv1.ThemeName = "TouchStyle";
             this.ribbonControlAdv1.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            // 
-            // UsuarioToolStripTabItem1
-            // 
-            this.UsuarioToolStripTabItem1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsuarioToolStripTabItem1.Name = "UsuarioToolStripTabItem1";
-            // 
-            // ribbonControlAdv1.ribbonPanel1
-            // 
-            this.UsuarioToolStripTabItem1.Panel.Name = "ribbonPanel1";
-            this.UsuarioToolStripTabItem1.Panel.ScrollPosition = 0;
-            this.UsuarioToolStripTabItem1.Panel.TabIndex = 2;
-            this.UsuarioToolStripTabItem1.Panel.Text = "Usuario";
-            this.UsuarioToolStripTabItem1.Position = 0;
-            this.UsuarioToolStripTabItem1.Size = new System.Drawing.Size(83, 36);
-            this.UsuarioToolStripTabItem1.Tag = "1";
-            this.UsuarioToolStripTabItem1.Text = "Usuario";
-            this.UsuarioToolStripTabItem1.Click += new System.EventHandler(this.toolStripTabItem1_Click);
             // 
             // ServicioToolStripTabItem2
             // 
@@ -107,7 +88,7 @@ namespace Ejercicio3_AnthonyAvila.Vistas
             this.ServicioToolStripTabItem2.Panel.ScrollPosition = 0;
             this.ServicioToolStripTabItem2.Panel.TabIndex = 3;
             this.ServicioToolStripTabItem2.Panel.Text = "Servicio";
-            this.ServicioToolStripTabItem2.Position = 1;
+            this.ServicioToolStripTabItem2.Position = 0;
             this.ServicioToolStripTabItem2.Size = new System.Drawing.Size(85, 36);
             this.ServicioToolStripTabItem2.Tag = "2";
             this.ServicioToolStripTabItem2.Text = "Servicio";
@@ -123,7 +104,7 @@ namespace Ejercicio3_AnthonyAvila.Vistas
             this.TicketsToolStripTabItem3.Panel.ScrollPosition = 0;
             this.TicketsToolStripTabItem3.Panel.TabIndex = 4;
             this.TicketsToolStripTabItem3.Panel.Text = "Ticket";
-            this.TicketsToolStripTabItem3.Position = 2;
+            this.TicketsToolStripTabItem3.Position = 1;
             this.TicketsToolStripTabItem3.Size = new System.Drawing.Size(70, 36);
             this.TicketsToolStripTabItem3.Tag = "3";
             this.TicketsToolStripTabItem3.Text = "Ticket";
@@ -139,7 +120,7 @@ namespace Ejercicio3_AnthonyAvila.Vistas
             this.DetallesToolStripTabItem5.Panel.ScrollPosition = 0;
             this.DetallesToolStripTabItem5.Panel.TabIndex = 6;
             this.DetallesToolStripTabItem5.Panel.Text = "Detalles";
-            this.DetallesToolStripTabItem5.Position = 3;
+            this.DetallesToolStripTabItem5.Position = 2;
             this.DetallesToolStripTabItem5.Size = new System.Drawing.Size(84, 36);
             this.DetallesToolStripTabItem5.Tag = "5";
             this.DetallesToolStripTabItem5.Text = "Detalles";
@@ -176,7 +157,6 @@ namespace Ejercicio3_AnthonyAvila.Vistas
 
         private Syncfusion.Windows.Forms.Tools.RibbonControlAdv ribbonControlAdv1;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem ServicioToolStripTabItem2;
-        private Syncfusion.Windows.Forms.Tools.ToolStripTabItem UsuarioToolStripTabItem1;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem TicketsToolStripTabItem3;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem DetallesToolStripTabItem5;
         private Syncfusion.Windows.Forms.Tools.TabbedMDIManager tabbedMDIManager1;

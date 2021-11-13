@@ -16,30 +16,12 @@ namespace Ejercicio3_AnthonyAvila.Vistas
 
         }
 
-        UsuarioForm formUsuario;
         ServiciosForm formServicio;
         TicketsForm formTickets;
         DetallesForm formDetalle;
 
-
-        private void toolStripTabItem1_Click(object sender, EventArgs e)
-        {
-            if (formUsuario == null)
-            {
-                formUsuario = new UsuarioForm();
-                formUsuario.MdiParent = this;
-                formUsuario.FormClosed += vistaForm;
-                formUsuario.Show();
-            }
-            else
-            {
-                formUsuario.Activate();
-            }
-        }
-
         private void vistaForm(object sender, FormClosedEventArgs e)
         {
-            formUsuario = null;
             formServicio = null;
             formDetalle = null;
             formTickets = null;
